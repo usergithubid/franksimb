@@ -55,7 +55,7 @@ def send_about(message):
         about = temp.substitute(
             STUDENT_NAME = 'FRANKI SIMBOLON',
             BATCH_ACADEMY = 'SPARTA',
-            GITHUB_REPO_LINK = 'WILL BE INFORMED',
+            GITHUB_REPO_LINK = 'https://github.com/usergithubid/franksimb',
         )
 
     bot.send_message(
